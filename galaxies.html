@@ -7,17 +7,23 @@
     <title>Galaxies</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <style>
     body {
 
         background-image: url("https://removal.ai/wp-content/uploads/2021/05/image1.png");
         background-repeat: no-repeat;
-            background-size: cover;
-            background-position:center ;
+        background-size: cover;
+        background-position: center;
         color: rgb(85, 207, 255);
     }
 </style>
+
 <body>
 
     <!-- Navbar -->
@@ -47,43 +53,135 @@
         </div>
     </nav>
 
+
     <!-- Galaxies Section -->
+
     <div class="container mt-5">
         <h2>Fascinating Galaxies</h2>
         <p>Galaxies are massive systems of stars, planetary systems, gas, and dust. Our galaxy, the Milky Way, is just
             one of the billions of galaxies in the universe.</p>
-    </div>
-    <h2>Which is the nearest galaxy to the milky way?</h2>
-    <img style="height:300px; width:500px;"
-        src="https://astronomytips.com/wp-content/uploads/2013/09/Andromeda-Galaxy-The-Nearest-Spiral-Galaxy-To-The-Milky-Way.jpg">
-    <p>he Canis Major Dwarf galaxy is currently considered the nearest galaxy to ours. It was only discovered recently in 2003
-    because it is hidden by a thick cloud of dust and is not visible in visible light. It only reveals itself in infrared
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+
+            <ol class="carousel-indicators">
+
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+
+            </ol>
+
+            <!-- Wrapper for slides -->
+
+            <div class="carousel-inner">
+
+                <div class="item active">
+
+                    <img src="https://th.bing.com/th/id/R.af5641cf84e889ccf46d93dc1524c814?rik=lMj%2blUchMAmJLA&riu=http%3a%2f%2fwww.gannett-cdn.com%2f-mm-%2f414987c999396602f2d4a57b00240c702f293a5a%2fc%3d0-50-534-352%26r%3dx1803%26c%3d3200x1800%2flocal%2f-%2fmedia%2f2015%2f01%2f20%2fUSATODAY%2fUSATODAY%2f635573577805533864-635573330936639965-Andromeda-Galaxy.jpg&ehk=wMhLzoxCddlpbsLsygnpCk2mrZUrhg5oEI4M%2fGhjMPc%3d&risl=&pid=ImgRaw&r=0"
+                        alt="Image 1">
+                    <p>The Andromeda Galaxy is a barred spiral galaxy and is the nearest major galaxy to the Milky Way.
+                        It was originally named the Andromeda Nebula and is cataloged as Messier 31, M31, and NGC 224. Andromeda has a D25
+                        isophotal diameter of about 46.56 kiloparsecs (152,000 light-years)[8] and is approximately 765 kpc (2.5 million
+                        light-years) from Earth. The galaxy's name stems from the area of Earth's sky in which it appears, the constellation of
+                        Andromeda, which itself is named after the princess who was the wife of Perseus in Greek
+                        mythology.</p>
+
+                </div>
+
+                <div class="item">
+<h2>Which is the nearest galaxy to the milky way?</h2>
+<img style="height:300px; width:500px;"
+    src="https://astronomytips.com/wp-content/uploads/2013/09/Andromeda-Galaxy-The-Nearest-Spiral-Galaxy-To-The-Milky-Way.jpg">
+<p>he Canis Major Dwarf galaxy is currently considered the nearest galaxy to ours. It was only discovered
+    recently in 2003
+    because it is hidden by a thick cloud of dust and is not visible in visible light. It only reveals itself in
+    infrared
     light. Astronomers discovered it when analyzing infrared images of our galaxy.
-    
-    This galaxy lies 25,000 light years away from our sun in the Canis Major constellation and 42,000 light years from the
-    core of our galaxy center. We are about 26,000-28,000 light years from the center of our galaxy. This means that we are
+
+    This galaxy lies 25,000 light years away from our sun in the Canis Major constellation and 42,000 light
+    years from the
+    core of our galaxy center. We are about 26,000-28,000 light years from the center of our galaxy. This means
+    that we are
     closer to the Canis Major Dwarf galaxy than to the center of our galaxy.</p>
-    <h2>How are galaxy made?</h2>
-    <img style="height:300px; width:500px;"
-        src="https://th.bing.com/th/id/OIP.beEqA66UUn-IMZcyiIa5cQHaEw?w=200&h=200&c=10&o=6&dpr=1.5&pid=Nasza++burzliwa+galaktyka.+Droga+Mleczna+stabilna%2c+uporz%c4%85dkowana+i+elegancka%3f+Nie+od+urodzenia.+Milky+Way%2c+Droga+Mleczna+-+najnowsze+badania+naukowe.+Tajemnice+Drogi+Mlecznej.+Kosmos.&rm=2">
-    <p>Galaxies are composed of stars, dust and dark matter, all held together by gravity. The formation of a galaxy can be
-    divided into three stages: 1. A ‘primordial collapse’ of matter into a clump in the early, expanding Universe. 2.
-    Hierarchical structure formation of larger clumps from smaller clumps. 3. A smoother evolution through internal
-    processes such as the formation of spiral arms. Astronomers aren't certain exactly how galaxies formed, but after the
+                   
+                </div>
+
+
+                <div class="item">
+<h2>How are galaxy made?</h2>
+<img style="height:300px; width:500px;"
+    src="https://th.bing.com/th/id/OIP.beEqA66UUn-IMZcyiIa5cQHaEw?w=200&h=200&c=10&o=6&dpr=1.5&pid=Nasza++burzliwa+galaktyka.+Droga+Mleczna+stabilna%2c+uporz%c4%85dkowana+i+elegancka%3f+Nie+od+urodzenia.+Milky+Way%2c+Droga+Mleczna+-+najnowsze+badania+naukowe.+Tajemnice+Drogi+Mlecznej.+Kosmos.&rm=2">
+<p>Galaxies are composed of stars, dust and dark matter, all held together by gravity. The formation of a galaxy
+    can be
+    divided into three stages: 1. A ‘primordial collapse’ of matter into a clump in the early, expanding
+    Universe. 2.
+    Hierarchical structure formation of larger clumps from smaller clumps. 3. A smoother evolution through
+    internal
+    processes such as the formation of spiral arms. Astronomers aren't certain exactly how galaxies formed, but
+    after the
     Big Bang, space was made up almost entirely of hydrogen and helium.</p>
-    <h2>What is the largest galaxy in the universe?</h2>
-    <img style="height:300px; width:500px;"
-        src="https://miro.medium.com/max/2048/1*jEqqouRNPLrkNKf0WQv5Sw.jpeg">
-    <p>IC 1101 is the largest galaxy in the observable universe. This supergiant elliptical galaxy is estimated to be around
-    2000 times larger than our Milky Way Galaxy, and also sports the largest known supermassive black hole known to man.</p>
-    <h2>What is supernova?</h2>
-    <img style="height:300px; width:500px;"
-    src="https://th.bing.com/th/id/OSK.HEROecg5gV16gFoR6ybrY-nKI7K-saWHh5p8P4Fvcef5Beo?w=312&h=200&c=7&rs=1&o=6&dpr=1.5&pid=SANGAM">
-    <p>A supernova (pl.: supernovae or supernovas) is a powerful and luminous explosion of a star. A supernova occurs during
-    the last evolutionary stages of a massive star, or when a white dwarf is triggered into runaway nuclear fusion. The
-    original object, called the progenitor, either collapses to a neutron star or black hole, or is completely destroyed to
-    form a diffuse nebula. The peak optical luminosity of a supernova can be comparable to that of an entire galaxy before
-    fading over several weeks or months.</p>
+                  
+                </div>
+
+                <div class="item">
+                <h2>What is the largest galaxy in the universe?</h2>
+                <img style="height:300px; width:500px;" src="https://miro.medium.com/max/2048/1*jEqqouRNPLrkNKf0WQv5Sw.jpeg">
+                <p>IC 1101 is the largest galaxy in the observable universe. This supergiant elliptical galaxy is estimated to
+                    be around
+                    2000 times larger than our Milky Way Galaxy, and also sports the largest known supermassive black hole known
+                    to man.</p>
+                
+                </div>
+                
+                
+                <div class="item">
+                <h2>What is supernova?</h2>
+                <img style="height:300px; width:500px;"
+                    src="https://th.bing.com/th/id/OSK.HEROecg5gV16gFoR6ybrY-nKI7K-saWHh5p8P4Fvcef5Beo?w=312&h=200&c=7&rs=1&o=6&dpr=1.5&pid=SANGAM">
+                <p>A supernova (pl.: supernovae or supernovas) is a powerful and luminous explosion of a star. A supernova
+                    occurs during
+                    the last evolutionary stages of a massive star, or when a white dwarf is triggered into runaway nuclear
+                    fusion. The
+                    original object, called the progenitor, either collapses to a neutron star or black hole, or is completely
+                    destroyed to
+                    form a diffuse nebula. The peak optical luminosity of a supernova can be comparable to that of an entire
+                    galaxy before
+                    fading over several weeks or months.</p>
+                
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+
+            <a class="left carousel-control" href="#" data-slide="prev">
+
+                <span class="glyphicon glyphicon-chevron-left"></span>
+
+                <span class="sr-only">Previous</span>
+
+            </a>
+
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+
+                <span class="glyphicon glyphicon-chevron-right"></span>
+
+                <span class="sr-only">Next</span>
+
+            </a>
+
+        </div>
+       
+        
+       
+       
+    </div>
 
 
 
