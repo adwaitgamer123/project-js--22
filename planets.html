@@ -7,8 +7,10 @@
     <title>Planets</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <style>
@@ -16,11 +18,44 @@
 
         background-image: url("https://th.bing.com/th/id/R.33f01c4917b1ee84c85d765cdeb36a4d?rik=ga%2bZEPNaj7rS7g&pid=ImgRaw&r=0");
         background-repeat: no-repeat;
-            background-size: cover;
-            background-position:center ;
+        background-size: cover;
+        background-position: center;
         color: rgb(80, 215, 245);
     }
+#c1{
+background-color: rgb(242, 118, 56);
+color: rgb(246, 176, 144);
+}
+#c2{
+background-color: rgb(244, 170, 96);
+color: rgb(241, 230, 158);
+}
+#c3{
+background-color: rgb(133, 255, 127);
+color: rgb(20, 62, 229);
+}
+#c4{
+background-color: rgb(245, 110, 13);
+color: rgb(241, 192, 127);
+}
+#c5{
+background-color: rgba(89, 75, 7, 0.861);
+color: rgb(234, 220, 95);
+}
+#c6{
+background-color: rgb(161, 113, 9);
+color: rgb(90, 219, 245);
+}
+#c7{
+background-color: rgb(100, 223, 236);
+color: rgb(119, 104, 255);
+}
+#c8{
+background-color: rgb(9, 21, 244);
+color: rgb(57, 138, 253);
+}
 </style>
+
 <body>
 
     <!-- Navbar -->
@@ -51,119 +86,242 @@
     </nav>
 
     <div class="container mt-5">
-    <h2>Explore the Planets</h2>
-    <p>Our solar system is home to eight planets, each unique and fascinating in its own right. From Mercury, the
-        closest planet to the sun, to Neptune, the most distant, these planets hold many secrets waiting to be
-        uncovered.</p>
+        <h2>Explore the Planets</h2>
+        <p>Our solar system is home to eight planets, each unique and fascinating in its own right. From Mercury, the
+            closest planet to the sun, to Neptune, the most distant, these planets hold many secrets waiting to be
+            uncovered.</p>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    
+
             <!-- Indicators -->
-    
+
             <ol class="carousel-indicators">
-    
+
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    
+
                 <li data-target="#myCarousel" data-slide-to="1"></li>
-    
+
                 <li data-target="#myCarousel" data-slide-to="2"></li>
-    
+
                 <li data-target="#myCarousel" data-slide-to="3"></li>
-    
+
                 <li data-target="#myCarousel" data-slide-to="4"></li>
-    
+
             </ol>
-    
+
             <!-- Wrapper for slides -->
-    
+
             <div class="carousel-inner">
-    
+
                 <div class="item active">
-                <h2>What is the largest planet in the milky way?</h2>
-                <img style="height:300px; width:500px;"
-                    src="https://th.bing.com/th/id/OIP.m0-LwUcf-xmmJ4x2Q87PawHaC3?rs=1&pid=ImgDetMain">
-                <p>Milky Way
-                    The biggest known planet in the Milky Way may be HD 100546 b, which is a very large gas giant in the process of
-                    forming with a diameter roughly...</p>
-    
+                    <h2>What is the largest planet in the milky way?</h2>
+                    <img style="height:300px; width:500px;"
+                        src="https://th.bing.com/th/id/OIP.m0-LwUcf-xmmJ4x2Q87PawHaC3?rs=1&pid=ImgDetMain">
+                    <p>Milky Way
+                        The biggest known planet in the Milky Way may be HD 100546 b, which is a very large gas giant in
+                        the process of
+                        forming with a diameter roughly...</p>
+
                 </div>
-    
+
                 <div class="item">
                     <h2>What is the smallest planet in the the milky way?</h2>
                     <img style="height:300px; width:500px;"
                         src="https://th.bing.com/th/id/OIP.AGf8qrk0A5-AuOU4NooSGQHaEL?rs=1&pid=ImgDetMain">
-                    <p>Mercury is the smallest planet in the Milky Way. It has a diameter of 4,879 kilometers, three times smaller than
-                        Earth's. It is so small that even Ganymede, a satellite of Jupiter and the largest in the Solar System, at 5,268 km
+                    <p>Mercury is the smallest planet in the Milky Way. It has a diameter of 4,879 kilometers, three
+                        times smaller than
+                        Earth's. It is so small that even Ganymede, a satellite of Jupiter and the largest in the Solar
+                        System, at 5,268 km
                         in diameter, is larger than Mercury.</p>
-    
+
                 </div>
-    
-    
+
+
                 <div class="item">
-                <h2>How are planets made?</h2>
-                <img style="height:300px; width:500px;"
-                    src="https://th.bing.com/th/id/OIP.wQbA2aBLMWhQsbGJoxFmdwHaJQ?w=200&h=200&c=10&o=6&dpr=1.5&pid=2.+Cosmic+cycle+of+interstellar+material.+Picture+composition+made+with+different+images+adapted+from+http%3a%2f%2fapod.nasa.gov%2fapod%2fastropix.html.&rm=2">
-                <p>1.Grains of dust smaller than a human hair emerge from the giant disk of gas and dust that circles young stars.
-                
-                    2.Gravity and collisions cause material within the disk to collide and form larger masses.
-                
-                    3.These larger masses attract more particles via gravity, eventually forming planets.
-                
-                    4..Terrestrial planets, like Earth, are primarily made of rocky material and have solid surfaces, with layers
-                    including the
-                    core, mantle, crust, and atmosphere.</p>
-                  
-    
+                    <h2>How are planets made?</h2>
+                    <img style="height:300px; width:500px;"
+                        src="https://th.bing.com/th/id/OIP.wQbA2aBLMWhQsbGJoxFmdwHaJQ?w=200&h=200&c=10&o=6&dpr=1.5&pid=2.+Cosmic+cycle+of+interstellar+material.+Picture+composition+made+with+different+images+adapted+from+http%3a%2f%2fapod.nasa.gov%2fapod%2fastropix.html.&rm=2">
+                    <p>1.Grains of dust smaller than a human hair emerge from the giant disk of gas and dust that
+                        circles young stars.
+
+                        2.Gravity and collisions cause material within the disk to collide and form larger masses.
+
+                        3.These larger masses attract more particles via gravity, eventually forming planets.
+
+                        4..Terrestrial planets, like Earth, are primarily made of rocky material and have solid
+                        surfaces, with layers
+                        including the
+                        core, mantle, crust, and atmosphere.</p>
+
+
                 </div>
-    
+
                 <div class="item">
                     <h2>Which planet has the largest rings in the milky way?</h2>
                     <img style="height:300px; width:500px;"
                         src="https://th.bing.com/th/id/OIP.Q74wMMqfK_jAAdnG1QiiogHaE0?rs=1&pid=ImgDetMain">
-                    <p>J1407b boasts the largest ring system we’re ever seen — around 200 times larger than Jupiter’s (the largest in our
+                    <p>J1407b boasts the largest ring system we’re ever seen — around 200 times larger than Jupiter’s
+                        (the largest in our
                         solar
-                        system). The planet that hosts it is equally immense: we don’t exactly know whether it’s a gas giant or a brown
+                        system). The planet that hosts it is equally immense: we don’t exactly know whether it’s a gas
+                        giant or a brown
                         dwarf</p>
                 </div>
-    
+
             </div>
-    
+
             <!-- Left and right controls -->
-    
+
             <a class="left carousel-control" href="#" data-slide="prev">
-    
+
                 <span class="glyphicon glyphicon-chevron-left"></span>
-    
+
                 <span class="sr-only">Previous</span>
-    
+
             </a>
-    
+
             <a class="right carousel-control" href="#myCarousel" data-slide="next">
-    
+
                 <span class="glyphicon glyphicon-chevron-right"></span>
-    
+
                 <span class="sr-only">Next</span>
-    
+
             </a>
-    
+
         </div>
 
 
-    <!-- Planets Section -->
-    <div class="container mt-5">
-       
-    
-    
-   
-  
+        <!-- Planets Section -->
+        <div class="container mt-5">
+            <!-- Mercury -->
+            <div class="col-md-4">
+                <div class="card h-100" id="c1">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Mercury_in_true_color.jpg"
+                        class="card-img-top" alt="Mercury">
+                    <div class="card-body">
+                        <h5 class="card-title">Mercury</h5>
+                        <p class="card-text">The closest planet to the Sun. It has a rocky surface and no atmosphere,
+                            making
+                            temperatures swing wildly.</p>
+                    </div>
+                </div>
+            </div>
 
-</div>
-    <!-- Footer -->
-    <footer class="text-center bg-dark text-white py-3 mt-5">
-        <p>&copy; 2025 Space Exploration. All Rights Reserved.</p>
-    </footer>
+            <!-- Venus -->
+            <div class="col-md-4">
+                <div class="card h-100" id="c2">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Venus-real_color.jpg"
+                        class="card-img-top" alt="Venus">
+                    <div class="card-body">
+                        <h5 class="card-title">Venus</h5>
+                        <p class="card-text">Known for its thick, toxic atmosphere and surface temperatures hot enough
+                            to melt lead.
+                            Earth's “sister planet.”</p>
+                    </div>
+                </div>
+            </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+            <!-- Earth -->
+            <div class="col-md-4">
+                <div class="card h-100" id="c3">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg"
+                        class="card-img-top" alt="Earth">
+                    <div class="card-body">
+                        <h5 class="card-title">Earth</h5>
+                        <p class="card-text">Our home planet — the only known planet with life. 71% of its surface is
+                            covered in
+                            water.That's our Mother Earth</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mars -->
+            <div class="col-md-4">
+                <div class="card h-100" id="c4">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg"
+                        class="card-img-top" alt="Mars">
+                    <div class="card-body">
+                        <h5 class="card-title">Mars</h5>
+                        <p class="card-text">The Red Planet is a cold desert world with signs of ancient water. A major
+                            target for
+                            future colonization.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Jupiter -->
+            <div class="col-md-4">
+                <div class="card h-100" id="c5">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Jupiter.jpg" class="card-img-top"
+                        alt="Jupiter">
+                    <div class="card-body">
+                        <h5 class="card-title">Jupiter</h5>
+                        <p class="card-text">The largest planet in the solar system, famous for its Great Red Spot and
+                            dozens of
+                            moons.</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- Uranus -->
+            <div class="col-md-4">
+                <div class="card h-100" id="c6">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Uranus2.jpg" class="card-img-top"
+                        alt="Uranus">
+                    <div class="card-body">
+                        <h5 class="card-title">Uranus</h5>
+                        <p class="card-text">An ice giant with a bluish hue due to methane in its atmosphere. It spins
+                            on its side!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Neptune -->
+            <div class="col-md-4">
+                <div class="card h-100" id="c7">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Neptune_Full.jpg" class="card-img-top"
+                        alt="Neptune">
+                    <div class="card-body">
+                        <h5 class="card-title">Neptune</h5>
+                        <p class="card-text">The farthest known planet in our solar system. Known for supersonic winds
+                            and deep blue
+                            color.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Saturn -->
+            <div class="col-md-4">
+                <div class="card h-100" id="c8">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Saturn_during_Equinox.jpg"
+                        class="card-img-top" alt="Saturn">
+                    <div class="card-body">
+                        <h5 class="card-title">Saturn</h5>
+                        <p class="card-text">Well-known for its stunning ring system. Saturn is a gas giant with over 80
+                            confirmed
+                            moons.</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+        <!-- Footer -->
+        <footer class="text-center bg-dark text-white py-3 mt-5">
+            <p>&copy; 2025 Space Exploration. All Rights Reserved.</p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+M9t5z0I4zFq8QjblZsP6cr1dfcJo"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
